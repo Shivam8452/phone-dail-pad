@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(111, 111, 243);
+    font-family: 'Exo', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dailer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+.input-field{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    height: 65px;
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding: 12px;
+    font-family: 'Exo', sans-serif;
+    color: rgb(98, 98, 226);
+    text-align: center;
+}
+.table-item{
+    text-align: center;   
+}
+.table-item:hover{
+    background-color: #f0f0f0;
+    transition: all ease-in-out 0.3s;
+}
+.table-item p{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 75px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 800;
+}
+
+.phone-btn{
+    color: #fff;
+    background-color: rgb(113, 240, 54);
+    height: 45px;
+    border-radius: 5px;
+}
+.btn-fav{
+    font-size: 1.5rem;
+}
+.phone-btn:hover{
+    background-color: rgb(165, 248, 126);
+    transition: all ease-in-out 0.3s;
+}
